@@ -1,0 +1,27 @@
+$def with (title, liste)
+<html>
+	<head>
+		<style>
+			#content{
+				margin: auto;
+			}
+			h2{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<h2>$title</h2>
+
+			<ul>
+				$for l in liste :
+					<li>$l</li>
+			</ul>
+
+			
+		</div>
+		
+	</body>
+
+</html>
